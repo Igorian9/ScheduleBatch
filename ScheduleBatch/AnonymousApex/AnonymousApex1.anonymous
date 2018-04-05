@@ -1,0 +1,2 @@
+BookAuthorsProccessing bap = new BookAuthorsProccessing();
+Database.executeBatch(bap, 100);

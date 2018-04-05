@@ -1,0 +1,27 @@
+42.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+Execute Anonymous: BookAuthorsProccessing bap = new BookAuthorsProccessing();
+Execute Anonymous: Database.executeBatch(bap, 100);
+07:25:55.1 (1120912)|USER_INFO|[EXTERNAL]|0051r000008BA6i|bahlik@softheme.com|Greenwich Mean Time|GMT+01:00
+07:25:55.1 (1141158)|EXECUTION_STARTED
+07:25:55.1 (1145728)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+07:25:55.1 (3091487)|SYSTEM_MODE_ENTER|false
+07:25:55.1 (3374115)|SYSTEM_MODE_EXIT|false
+07:25:55.28 (28455951)|CUMULATIVE_LIMIT_USAGE
+07:25:55.28 (28455951)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:25:55.28 (28455951)|CUMULATIVE_LIMIT_USAGE_END
+
+07:25:55.1 (28500945)|CODE_UNIT_FINISHED|execute_anonymous_apex
+07:25:55.1 (29266071)|EXECUTION_FINISHED
